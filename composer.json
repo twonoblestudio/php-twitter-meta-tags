@@ -4,7 +4,7 @@
     "keywords": [
         "twitter"
     ],
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
