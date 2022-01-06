@@ -1,0 +1,32 @@
+{
+    "name": "zsoltoroszlany/php-twitter-meta-tags",
+    "description": "Twitter meta tag generator",
+    "keywords": [
+        "twitter"
+    ],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "2 Noble Studio",
+            "homepage": "https://twonoblestudio.com/",
+            "email": "twonoblestudio@twonoblestudio.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TwoNobleStudio\\Twitter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TwoNobleStudio\\Twitter\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
